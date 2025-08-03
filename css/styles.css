@@ -44,6 +44,7 @@ ul {
   font-size: 18px;
   list-style-type: none;
   display: flex;
+  justify-content: space-between;
   padding: 0;
   margin: 0;
   gap: 16px;
@@ -61,7 +62,8 @@ ul {
 }
 
 .signup-btn {
-  margin-top: 20px;
+    margin-top: 10px;
+  margin-bottom: 20px;
   border: none;
 }
 .sub-header {
@@ -73,12 +75,15 @@ ul {
 .sub-header-image {
   background-color: grey;
   padding: 20px;
+  height: auto;
+  width: 300px;
+  margin-bottom: 20px;
+  flex: auto;
 }
 
 .cta-section {
   background-color: #3882f6;
   color: #fff;
-  margin: 40px;
   display: flex;
   justify-content: space-around;
   gap: 20px;
@@ -107,6 +112,9 @@ button {
 .cta-btn {
   border-color: #fff;
   border: solid;
+  height: 50px;
+  width: 200px;
+  margin-top: 16px;
 }
 
 .first-section {
@@ -127,6 +135,7 @@ button {
   display: flex;
   justify-content: space-between;
   padding: 20px 200px;
+  margin-bottom: 50px;
 }
 
 .image > p {
@@ -146,6 +155,7 @@ button {
     font-style: italic;
     font-weight: lighter;
     display: flex;
+    justify-content: flex-end;
 }
 
 .quote-section > .author {
