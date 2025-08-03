@@ -1,0 +1,155 @@
+html {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  box-sizing: content-box;
+  height: auto;
+  width: 100px;
+  border-radius: 8px;
+}
+
+.container,
+.footer {
+  background-color: #1f2937;
+  color: #fff;
+}
+
+.container {
+  height: auto;
+  padding: 20px 80px;
+}
+
+.header {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  padding: 20px 50px;
+}
+
+.header-logo-text {
+  color: #f9faf8;
+  font-size: 24px;
+}
+ul {
+  color: #e5e7eb;
+  font-size: 18px;
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
+}
+
+.hero-main-text {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-secondary-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.signup-btn {
+  margin-top: 20px;
+  border: none;
+}
+.sub-header {
+  display: flex;
+  gap: 50px;
+  padding: 20px 50px;
+}
+
+.sub-header-image {
+  background-color: grey;
+  padding: 20px;
+}
+
+.cta-section {
+  background-color: #3882f6;
+  color: #fff;
+  margin: 40px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  border-radius: 5px;
+  padding: 20px 50px;
+  margin: 50px 120px;
+}
+
+/* .cta-text {
+  display: flex;
+  flex-direction: column;
+} */
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border-radius: 8px;
+  background: #3882f6;
+  color: white;
+  padding: 8px 24px;
+}
+
+.cta-btn {
+  border-color: #fff;
+  border: solid;
+}
+
+.first-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.first-section-text {
+  display: flex;
+  justify-content: center;
+  color: #1f2937;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.illustration-images {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 200px;
+}
+
+.image > p {
+    text-wrap: balance;
+}
+
+.quote-section {
+    display: flex;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    padding: 40px 200px;
+    flex-direction: column;
+}
+
+.quote-section > .quote {
+    font-style: italic;
+    font-weight: lighter;
+    display: flex;
+}
+
+.quote-section > .author {
+     display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+}
